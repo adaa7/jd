@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f4f4f4;
+}
+/* 向左移动 */
+.jd_left{
+    float: left;
+}
+/* 向右移动 */
+.jd_right{
+    float: right;
+}
+/* 清除浮动（css2.0） */
+.clear{
+    clear: both;
+}
+/* 清除浮动（css3.0） */
+.clearfix::after{
+    content: " " ;
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
